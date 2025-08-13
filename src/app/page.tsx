@@ -69,7 +69,7 @@ export default function Home() {
     name: "Sarah K.",
     role: "Concert Organizer",
     starsSrc: "/stars.png",
-    profileSrc: "/profile2.png",
+    profileSrc: "/profile2.jpg",
     bigPicSrc: "/big pic.png",
   },
   ];
@@ -79,13 +79,13 @@ export default function Home() {
   return (
     <main className="font-sans">
       {/* Navbar */}
-      <header className="fixed top-0 left-0 w-full bg-white shadow z-50">
-        <div className="max-w-screen-xl mx-auto flex justify-between items-center py-5 px-4 sm:px-6 lg:px-8 xl:px-24">
+      <header className="fixed w-full bg-white shadow z-50">
+        <div className="max-w-screen-xl mx-auto flex justify-between items-center py-5 px-4">
           <Image
             src="/oyoyo logo.png"
             alt="Oyoyo Logo"
-            width={120}
-            height={40}
+            width={80}
+            height={30}
             priority
           />
           {/* Desktop Nav */}
@@ -133,7 +133,7 @@ export default function Home() {
       </header>
 
       {/* Spacer */}
-      <div className="h-[80px]" />
+      <div className="h-[120px]" />
 
       {/* Mobile Slide-out Menu */}
       <div
@@ -444,7 +444,7 @@ export default function Home() {
 
       {/* Footer */}
       <div className="bg-red-700 relative top-[70px] md:top-[70px]">
-        <div className="max-w-screen-xl lg:px-8 xl:px-24 px-4 py-10 mx-auto">
+        <div className="max-w-screen-xl px-4 py-10 mx-auto">
           <div className="grid sm:grid-cols-[1fr,auto] gap-8 sm:gap-11 justify-between items-center">
             <div className="flex flex-col gap-8">
               <img
